@@ -1,8 +1,7 @@
 /*eslint-env mocha*/
-const chai = require('chai');
-const { expect } = chai;
-import color from '../src/color';
-import helper from '../src/legend';
+import { expect } from "chai";
+import color from '../src/color.js';
+import helper from '../src/legend.js';
 import { formatLocale, format } from 'd3-format'
 
 // describe('d3-legend', function () {

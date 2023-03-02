@@ -1,7 +1,7 @@
-import legendColor from './src/color'
-import legendSize from './src/size'
-import legendSymbol from './src/symbol'
-import legendHelpers from './src/helpers'
+import legendColor from './src/color.js'
+import legendSize from './src/size.js'
+import legendSymbol from './src/symbol.js'
+import legendHelpers from './src/helpers.js'
 
 export { legendColor, legendSize, legendSymbol, legendHelpers }
 
