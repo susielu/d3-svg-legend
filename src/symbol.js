@@ -1,4 +1,4 @@
-import helper from "./legend"
+import helper from "./legend.js"
 import { dispatch } from "d3-dispatch"
 import { scaleLinear } from "d3-scale"
 import { formatLocale, formatSpecifier } from "d3-format"

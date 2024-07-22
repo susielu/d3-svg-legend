@@ -1,7 +1,7 @@
-import color from './color'
-import size from './size'
-import symbol from './symbol'
-import helpers from './helpers'
+import color from './color.js'
+import size from './size.js'
+import symbol from './symbol.js'
+import helpers from './helpers.js'
 
 d3.legendColor = color
 d3.legendSize = size

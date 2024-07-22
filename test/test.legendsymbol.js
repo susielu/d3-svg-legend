@@ -1,8 +1,7 @@
 /*eslint-env mocha*/
-const chai = require('chai');
-const { expect } = chai;
-import symbol from '../src/symbol';
-import helper from '../src/legend';
+import { expect } from "chai";
+import symbol from '../src/symbol.js';
+import helper from '../src/legend.js';
 import { formatLocale, format } from 'd3-format'
 
 describe('d3-legend #legendSymbol', function() {
